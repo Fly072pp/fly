@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mon Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#staff">Staff</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="accueil">
+        <h2>Bienvenue</h2>
+        <p>Découvrez mon univers et mes projets.</p>
+    </section>
+    
+    <section id="apropos">
+        <h2>À propos</h2>
+        <p>Développeur passionné par le web et les nouvelles technologies.</p>
+    </section>
+    
+    <section id="projets">
+        <h2>Mes projets</h2>
+        <div class="projet">
+            <h3>Projet 1</h3>
+            <p>Description du projet.</p>
+        </div>
+    </section>
+    
+    <section id="staff">
+        <h2>Où je suis Staff</h2>
+        <p>Liste des communautés et projets où j'occupe un rôle de staff.</p>
+        <ul>
+            <li><a href="https://www.exemple1.com" target="_blank">Projet/Communauté 1</a> - Rôle</li>
+            <li><a href="https://www.exemple2.com" target="_blank">Projet/Communauté 2</a> - Rôle</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="contact.php" method="POST">
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+</body>
+</html>
